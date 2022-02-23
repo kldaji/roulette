@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/rouletteFragment">
+
+    <fragment
+        android:id="@+id/rouletteFragment"
+        android:name="com.kldaji.roulette.ui.RouletteFragment"
+        android:label="RouletteFragment" >
+        <action
+            android:id="@+id/action_rouletteFragment_to_partitionFragment"
+            app:destination="@id/partitionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/partitionFragment"
+        android:name="com.kldaji.roulette.ui.PartitionFragment"
+        android:label="PartitionFragment" />
+</navigation>
