@@ -4,4 +4,8 @@
         <attr name="rouletteViewWidth" format="dimension" />
         <attr name="rouletteViewHeight" format="dimension" />
     </declare-styleable>
+
+    <declare-styleable name="RoulettePinView">
+        <attr name="rouletteViewRadius" format="dimension" />
+    </declare-styleable>
 </resources>
