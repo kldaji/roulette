@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/rouletteFragment"
-        android:name="com.kldaji.roulette.ui.RouletteFragment"
+        android:name="com.kldaji.roulette.ui.roulette.RouletteFragment"
         android:label="RouletteFragment" >
         <action
             android:id="@+id/action_rouletteFragment_to_partitionFragment"

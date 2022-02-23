@@ -1,4 +1,4 @@
-package com.kldaji.roulette.ui
+package com.kldaji.roulette.ui.roulette
 
 import android.os.Bundle
 import android.view.LayoutInflater
