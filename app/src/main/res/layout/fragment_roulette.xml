@@ -13,6 +13,18 @@
         app:title="룰렛 게임"
         app:titleCentered="true" />
 
+    <ProgressBar
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:max="100"
+        android:progress="70"
+        android:progressDrawable="@drawable/roulette_progress_bar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tb_roulette" />
+
     <com.kldaji.roulette.ui.roulette.RouletteView
         android:id="@+id/roulette_view"
         android:layout_width="match_parent"
@@ -21,5 +33,6 @@
         app:layout_constraintTop_toBottomOf="@id/tb_roulette"
         app:rouletteViewHeight="300dp"
         app:rouletteViewWidth="300dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
