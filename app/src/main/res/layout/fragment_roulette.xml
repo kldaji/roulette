@@ -34,5 +34,23 @@
         app:rouletteViewHeight="300dp"
         app:rouletteViewWidth="300dp" />
 
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/start_btn_roulette"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/roulette_start_button"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:textColor="@color/white"
+        android:text="@string/roulette_start"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:cornerRadius="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tb_roulette" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

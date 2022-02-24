@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">roulette</string>
+    <string name="roulette_start">START</string>
 </resources>
